@@ -45,20 +45,13 @@ namespace ProgramaLOL
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            ArrayList arPersonajes = new ArrayList();
+            Boolean repetido = false;
+
             lbInfo.DataSource = null;
             lbInfo.Items.Clear();
-            //PlQuery cargar = new PlQuery("cargar");
-            //cargar.NextSolution();
-            //String query = "que_personaje_es(" +
-            //    "PERSONAJE," 
-            //    + cbSexo.SelectedItem.ToString() + "," 
-            //    + cbCarril.SelectedItem.ToString() + "," 
-            //    + cbTipo.SelectedItem.ToString() + "," 
-            //    + cbArma.SelectedItem.ToString() + "," 
-            //    + cbRegion.SelectedItem.ToString() 
-            //    + ")";
 
-            String query1 = "que_personaje_es(" +
+            String query = "que_personaje_es(" +
                 "PERSONAJE,"
                 + cbSexo.Text.ToString() + ","
                 + cbCarril.Text.ToString() + ","
@@ -66,9 +59,8 @@ namespace ProgramaLOL
                 + cbArma.Text.ToString() + ","
                 + cbRegion.Text.ToString()
                 + ")";
-            ArrayList arPersonajes = new ArrayList();
-            Boolean repetido = false;
-            PlQuery consulta = new PlQuery(query1);
+            
+            PlQuery consulta = new PlQuery(query);
             foreach (PlQueryVariables z in consulta.SolutionVariables)
             {
                 foreach (var element in arPersonajes)
@@ -79,14 +71,16 @@ namespace ProgramaLOL
                         break;
                     }
                 }
+
                 if (repetido == false)
                 {
                     arPersonajes.Add(z["PERSONAJE"].ToString());
                 }
                 repetido = false;
-                //lbInfo.Items.Add(z["PERSONAJE"].ToString());
             }
+
             lbInfo.DataSource = arPersonajes;
+
         }
     }
 }
