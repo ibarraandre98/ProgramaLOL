@@ -114,8 +114,8 @@ namespace ProgramaLOL
             {
                 descripcion = z["DESCRIPCION"].ToString();
             }
-
-            pbImagenCampeon.Image = ilCampeonesCompletos.Images[$"{nombreCampeon}.jpg"];
+            pbImagenCampeon.Image = (Image)ProgramaLOL.Properties.Resources.ResourceManager.GetObject(nombreCampeon);
+            //pbImagenCampeon.Image = ilCampeonesCompletos.Images[$"{nombreCampeon}.jpg"];
             lbNombreCampeon.Text = nombreCampeon;
             tbDescripcion.Text = descripcion;
         }

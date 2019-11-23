@@ -227,6 +227,7 @@
             this.pbImagenCampeon.Location = new System.Drawing.Point(218, 8);
             this.pbImagenCampeon.Name = "pbImagenCampeon";
             this.pbImagenCampeon.Size = new System.Drawing.Size(218, 216);
+            this.pbImagenCampeon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbImagenCampeon.TabIndex = 8;
             this.pbImagenCampeon.TabStop = false;
             // 

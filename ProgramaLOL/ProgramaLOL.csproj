@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +82,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes_campeones_completos\Akali png.png" />
+    <None Include="imagenes_campeones_completos\akali.jpg" />
+    <None Include="imagenes_campeones_completos\amumu_completo.jpg" />
+    <None Include="imagenes_campeones_completos\ashe.jpg" />
+    <None Include="imagenes_campeones_completos\asheee.jpg" />
+    <None Include="imagenes_campeones_completos\atrox.jpg" />
+    <None Include="imagenes_campeones_completos\blitzcranck.jpg" />
+    <None Include="imagenes_campeones_completos\cbraum.jpg" />
+    <None Include="imagenes_campeones_completos\darius.jpg" />
+    <None Include="imagenes_campeones_completos\draven.jpg" />
+    <None Include="imagenes_campeones_completos\ekko.jpg" />
+    <None Include="imagenes_campeones_completos\garen.jpg" />
+    <None Include="imagenes_campeones_completos\iiii.jpg" />
+    <None Include="imagenes_campeones_completos\miss_fortune.jpg" />
+    <None Include="imagenes_campeones_completos\mumu.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
