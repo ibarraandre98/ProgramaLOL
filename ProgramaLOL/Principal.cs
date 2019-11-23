@@ -101,6 +101,18 @@ namespace ProgramaLOL
         private void LvCampeones_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             MessageBox.Show(lvCampeones.SelectedItems[0].Text);
+
+            String query = $"que_descripcion_tiene(" +
+                $"{lvCampeones.SelectedItems[0].Text}," +
+                $"DESCRIPCION" +
+                $")";
+
+            PlQuery consulta1 = new PlQuery(query);
+
+            foreach (var z in consulta1.SolutionVariables)
+            {
+                MessageBox.Show(z["DESCRIPCION"].ToString());
+            }
         }
     }
 }
