@@ -27,10 +27,28 @@ namespace ProgramaLOL
                 String[] p = { "-q", "-f", @"rules.pl" };
                 PlEngine.Initialize(p);
                 firstElementComboBox();
+                propiedadesDeInicioListView();
             }
             catch (Exception)
             {
                 throw;
+            }
+        }
+
+        private void propiedadesDeInicioListView()
+        {
+            lvCampeones.View = View.Details;
+            lvCampeones.Columns.Add("Campeon", 0);
+            lvCampeones.AutoResizeColumn(0, ColumnHeaderAutoResizeStyle.HeaderSize);
+        }
+
+        private void propiedadesListViewCampeones(ArrayList arCampeones)
+        {
+            lvCampeones.Items.Clear();
+            lvCampeones.SmallImageList = ilCampeones;
+            foreach (var itemCampeones in arCampeones)
+            {
+                lvCampeones.Items.Add(itemCampeones.ToString(), $"{itemCampeones.ToString()}.png");
             }
         }
 
@@ -48,8 +66,6 @@ namespace ProgramaLOL
             ArrayList arPersonajes = new ArrayList();
             Boolean repetido = false;
 
-            lbInfo.DataSource = null;
-            lbInfo.Items.Clear();
 
             String query = "que_personaje_es(" +
                 "PERSONAJE,"
@@ -79,8 +95,12 @@ namespace ProgramaLOL
                 repetido = false;
             }
 
-            lbInfo.DataSource = arPersonajes;
+            propiedadesListViewCampeones(arPersonajes);
+        }
 
+        private void LvCampeones_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show(lvCampeones.SelectedItems[0].Text);
         }
     }
 }
