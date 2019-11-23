@@ -101,9 +101,10 @@ namespace ProgramaLOL
         private void LvCampeones_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             MessageBox.Show(lvCampeones.SelectedItems[0].Text);
-
+            String descripcion = null;
+            String nombreCampeon = lvCampeones.SelectedItems[0].Text;
             String query = $"que_descripcion_tiene(" +
-                $"{lvCampeones.SelectedItems[0].Text}," +
+                $"{nombreCampeon}," +
                 $"DESCRIPCION" +
                 $")";
 
@@ -111,8 +112,12 @@ namespace ProgramaLOL
 
             foreach (var z in consulta1.SolutionVariables)
             {
-                MessageBox.Show(z["DESCRIPCION"].ToString());
+                descripcion = z["DESCRIPCION"].ToString();
             }
+
+            pbImagenCampeon.Image = ilCampeonesCompletos.Images[$"{nombreCampeon}.jpg"];
+            lbNombreCampeon.Text = nombreCampeon;
+            tbDescripcion.Text = descripcion;
         }
     }
 }

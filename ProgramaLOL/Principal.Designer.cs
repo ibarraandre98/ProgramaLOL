@@ -38,11 +38,16 @@
             this.cbRegion = new System.Windows.Forms.ComboBox();
             this.lvCampeones = new System.Windows.Forms.ListView();
             this.ilCampeones = new System.Windows.Forms.ImageList(this.components);
+            this.pbImagenCampeon = new System.Windows.Forms.PictureBox();
+            this.tbDescripcion = new System.Windows.Forms.TextBox();
+            this.ilCampeonesCompletos = new System.Windows.Forms.ImageList(this.components);
+            this.lbNombreCampeon = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagenCampeon)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(367, 384);
+            this.btnCalcular.Location = new System.Drawing.Point(61, 285);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(75, 23);
             this.btnCalcular.TabIndex = 0;
@@ -153,9 +158,9 @@
             this.lvCampeones.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.lvCampeones.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.lvCampeones.HideSelection = false;
-            this.lvCampeones.Location = new System.Drawing.Point(448, 0);
+            this.lvCampeones.Location = new System.Drawing.Point(471, 0);
             this.lvCampeones.Name = "lvCampeones";
-            this.lvCampeones.Size = new System.Drawing.Size(352, 450);
+            this.lvCampeones.Size = new System.Drawing.Size(329, 450);
             this.lvCampeones.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.lvCampeones.TabIndex = 7;
             this.lvCampeones.UseCompatibleStateImageBehavior = false;
@@ -217,11 +222,60 @@
             this.ilCampeones.Images.SetKeyName(48, "blitzcranck.png");
             this.ilCampeones.Images.SetKeyName(49, "nunu_y_willum.png");
             // 
+            // pbImagenCampeon
+            // 
+            this.pbImagenCampeon.Location = new System.Drawing.Point(218, 8);
+            this.pbImagenCampeon.Name = "pbImagenCampeon";
+            this.pbImagenCampeon.Size = new System.Drawing.Size(218, 216);
+            this.pbImagenCampeon.TabIndex = 8;
+            this.pbImagenCampeon.TabStop = false;
+            // 
+            // tbDescripcion
+            // 
+            this.tbDescripcion.Location = new System.Drawing.Point(218, 287);
+            this.tbDescripcion.Multiline = true;
+            this.tbDescripcion.Name = "tbDescripcion";
+            this.tbDescripcion.Size = new System.Drawing.Size(218, 119);
+            this.tbDescripcion.TabIndex = 9;
+            // 
+            // ilCampeonesCompletos
+            // 
+            this.ilCampeonesCompletos.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilCampeonesCompletos.ImageStream")));
+            this.ilCampeonesCompletos.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilCampeonesCompletos.Images.SetKeyName(0, "Akali png.png");
+            this.ilCampeonesCompletos.Images.SetKeyName(1, "akali.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(2, "amumu_completo.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(3, "ashe.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(4, "asheee.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(5, "atrox.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(6, "blitzcranck.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(7, "cbraum.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(8, "darius.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(9, "draven.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(10, "ekko.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(11, "garen.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(12, "iiii.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(13, "miss_fortune.jpg");
+            this.ilCampeonesCompletos.Images.SetKeyName(14, "mumu.jpg");
+            // 
+            // lbNombreCampeon
+            // 
+            this.lbNombreCampeon.AutoSize = true;
+            this.lbNombreCampeon.Font = new System.Drawing.Font("Friz Quadrata TT", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombreCampeon.Location = new System.Drawing.Point(200, 239);
+            this.lbNombreCampeon.Name = "lbNombreCampeon";
+            this.lbNombreCampeon.Size = new System.Drawing.Size(256, 33);
+            this.lbNombreCampeon.TabIndex = 10;
+            this.lbNombreCampeon.Text = "NombreCampeon";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lbNombreCampeon);
+            this.Controls.Add(this.tbDescripcion);
+            this.Controls.Add(this.pbImagenCampeon);
             this.Controls.Add(this.lvCampeones);
             this.Controls.Add(this.cbRegion);
             this.Controls.Add(this.cbArma);
@@ -232,7 +286,9 @@
             this.Name = "Principal";
             this.Text = "Principal";
             this.Load += new System.EventHandler(this.Principal_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbImagenCampeon)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -246,6 +302,10 @@
         private System.Windows.Forms.ComboBox cbRegion;
         private System.Windows.Forms.ListView lvCampeones;
         private System.Windows.Forms.ImageList ilCampeones;
+        private System.Windows.Forms.PictureBox pbImagenCampeon;
+        private System.Windows.Forms.TextBox tbDescripcion;
+        private System.Windows.Forms.ImageList ilCampeonesCompletos;
+        private System.Windows.Forms.Label lbNombreCampeon;
     }
 }
 
