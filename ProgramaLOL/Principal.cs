@@ -86,7 +86,8 @@ namespace ProgramaLOL
 
         private void LblCerrar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if(MessageBox.Show("¿Está seguro de salir?","Salir",MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                Application.Exit();
         }
 
         private void LblMinimizar_Click(object sender, EventArgs e)

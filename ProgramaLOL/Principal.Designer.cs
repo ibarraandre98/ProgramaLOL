@@ -59,6 +59,7 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.tbDescripcion = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -193,6 +194,8 @@
             // panel1
             // 
             this.panel1.BackgroundImage = global::ProgramaLOL.Properties.Resources.marco;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.panel3);
@@ -227,7 +230,6 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.lvCampeones);
             this.panel3.ForeColor = System.Drawing.Color.Black;
             this.panel3.Location = new System.Drawing.Point(729, 75);
@@ -327,9 +329,9 @@
             this.lbNombreCampeon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(137)))), ((int)(((byte)(106)))), ((int)(((byte)(54)))));
             this.lbNombreCampeon.Location = new System.Drawing.Point(188, 228);
             this.lbNombreCampeon.Name = "lbNombreCampeon";
-            this.lbNombreCampeon.Size = new System.Drawing.Size(120, 29);
+            this.lbNombreCampeon.Size = new System.Drawing.Size(149, 29);
             this.lbNombreCampeon.TabIndex = 10;
-            this.lbNombreCampeon.Text = "Campeon";
+            this.lbNombreCampeon.Text = "CAMPEÓN";
             // 
             // panel5
             // 
@@ -523,13 +525,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(-44, 273);
+            this.label3.Location = new System.Drawing.Point(819, 396);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(152, 14);
+            this.label3.Size = new System.Drawing.Size(182, 14);
             this.label3.TabIndex = 18;
-            this.label3.Text = "Programación lógica y funcional";
+            this.label3.Text = "Programación lógica y funcional - 2019";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(30, 396);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(485, 14);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Maria Fernanda Aldape Sanchez, Esmeralda Ruiz Barron, Felix Alberto Muñoz García," +
+    " André Ibarra Pérez";
             // 
             // Principal
             // 
@@ -556,7 +572,6 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -602,6 +617,7 @@
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.RichTextBox tbDescripcion;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
