@@ -23,7 +23,7 @@ namespace ProgramaLOL
         {
             try
             {
-                Environment.SetEnvironmentVariable("Path", @"C:\\Program Files (x86)\\pl\\bin");
+                Environment.SetEnvironmentVariable("Path", @"C:\\Program Files (x86)\\swipl\\bin");
                 String[] p = { "-q", "-f", @"rules.pl" };
                 PlEngine.Initialize(p);
                 firstElementComboBox();
@@ -119,5 +119,7 @@ namespace ProgramaLOL
             lbNombreCampeon.Text = nombreCampeon;
             tbDescripcion.Text = descripcion;
         }
+
+        
     }
 }

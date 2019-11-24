@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SwiPlCs">
-      <HintPath>.\SwiPlCs.dll</HintPath>
+    <Reference Include="SwiPlCs, Version=1.1.60301.0, Culture=neutral, PublicKeyToken=03ea137181587c56, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\muskops\ProgramaLOL\ProgramaLOL\bin\Debug\SwiPlCs.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -99,6 +100,21 @@
     <None Include="imagenes_campeones_completos\iiii.jpg" />
     <None Include="imagenes_campeones_completos\miss_fortune.jpg" />
     <None Include="imagenes_campeones_completos\mumu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagenes_campeones\marco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\Akali png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_champion__3nwJQ - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_universe__14mjH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\Akali png - copia.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

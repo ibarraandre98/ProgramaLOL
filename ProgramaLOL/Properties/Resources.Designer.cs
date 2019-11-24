@@ -73,9 +73,19 @@ namespace ProgramaLOL.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Akali_png {
+        internal static System.Drawing.Bitmap Akali_png___copia {
             get {
-                object obj = ResourceManager.GetObject("Akali_png", resourceCulture);
+                object obj = ResourceManager.GetObject("Akali png - copia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Akali_png1 {
+            get {
+                object obj = ResourceManager.GetObject("Akali png1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,6 +153,26 @@ namespace ProgramaLOL.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap content_type_icon_champion__3nwJQ___copia {
+            get {
+                object obj = ResourceManager.GetObject("content_type_icon_champion__3nwJQ - copia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap content_type_icon_universe__14mjH {
+            get {
+                object obj = ResourceManager.GetObject("content_type_icon_universe__14mjH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap darius {
             get {
                 object obj = ResourceManager.GetObject("darius", resourceCulture);
@@ -186,6 +216,16 @@ namespace ProgramaLOL.Properties {
         internal static System.Drawing.Bitmap iiii {
             get {
                 object obj = ResourceManager.GetObject("iiii", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marco {
+            get {
+                object obj = ResourceManager.GetObject("marco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
