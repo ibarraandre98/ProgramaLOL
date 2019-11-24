@@ -58,6 +58,7 @@
             this.cbRegion = new System.Windows.Forms.ComboBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.tbDescripcion = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -76,7 +77,7 @@
             // ilCampeones
             // 
             this.ilCampeones.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilCampeones.ImageStream")));
-            this.ilCampeones.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilCampeones.TransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(19)))), ((int)(((byte)(24)))));
             this.ilCampeones.Images.SetKeyName(0, "akali.png");
             this.ilCampeones.Images.SetKeyName(1, "amumu.png");
             this.ilCampeones.Images.SetKeyName(2, "ashe.png");
@@ -200,7 +201,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 62);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1038, 414);
+            this.panel1.Size = new System.Drawing.Size(1038, 422);
             this.panel1.TabIndex = 16;
             // 
             // pictureBox1
@@ -226,6 +227,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.lvCampeones);
             this.panel3.ForeColor = System.Drawing.Color.Black;
             this.panel3.Location = new System.Drawing.Point(729, 75);
@@ -518,13 +520,24 @@
             this.tbDescripcion.TabIndex = 15;
             this.tbDescripcion.Text = "";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Modern No. 20", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(-44, 273);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(152, 14);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "Programación lógica y funcional";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(19)))), ((int)(((byte)(24)))));
-            this.ClientSize = new System.Drawing.Size(1038, 476);
+            this.ClientSize = new System.Drawing.Size(1038, 484);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel4);
             this.ForeColor = System.Drawing.Color.Black;
@@ -543,6 +556,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -587,6 +601,7 @@
         private System.Windows.Forms.ComboBox cbRegion;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.RichTextBox tbDescripcion;
+        private System.Windows.Forms.Label label3;
     }
 }
 
