@@ -118,67 +118,238 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="garen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\garen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="aatrox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aatrox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="atrox" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\atrox.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="akail_completa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\akail_completa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="akali" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\akali.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Akali_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Akali png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blitzcranck" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\blitzcranck.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Akali_png1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\Akali png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="marco" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones\marco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Akali_png___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\Akali png - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ashe" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\ashe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="amumu_completo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amumu_completo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="darius" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\darius.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ashe_completa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ashe_completa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="draven" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\draven.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bandle_city_crest_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\bandle_city_crest_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="content_type_icon_champion__3nwJQ - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\iconos\content_type_icon_champion__3nwJQ - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bandle_city_crest_icon___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\bandle_city_crest_icon - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cakali" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cakali.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camumu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camumu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cashe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cashe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cblitzcranck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cblitzcrank.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cbraum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\cbraum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>..\Resources\cbraum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mumu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\mumu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cdarius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cdarius.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cdraven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cdraven.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cekko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cekko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cgaren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cgaren.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cgraves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cgraves.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChampionIconFrame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\ChampionIconFrame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cirelia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cirelia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cjarvan_iv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cjarvan_iv.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cjax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cjax.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cjayce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cjayce.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ckaisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ckaisa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ckalista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ckalista.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ckatarina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ckatarina.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ckayn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ckayn.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clucian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clucian.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clux" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clux.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cmiss_fortune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cmiss_fortune.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cmordekaiser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cmordekaiser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cnami" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cnami.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cnautilus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cnautilus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cneeko" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cneeko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cnidalee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cnidalee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cnunu_willump" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cnunu_willump.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cnunu_y_willum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cnunu_y_willum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="colaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colaf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_champion__3nwJQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_champion__3nwJQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_champion__3nwJQ___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_champion__3nwJQ - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_faction__14mjH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_faction__14mjH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_faction__14mjH___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_faction__14mjH - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_latest__1ulWu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_latest__1ulWu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_latest__1ulWu___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_latest__1ulWu - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_trending__2Bld0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_trending__2Bld0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="content_type_icon_trending__2Bld0___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\content_type_icon_trending__2Bld0 - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="content_type_icon_universe__14mjH" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\iconos\content_type_icon_universe__14mjH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Akali_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\Akali png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cpoppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cpoppy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Akali png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\iconos\Akali png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="criven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\criven.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iiii" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\iiii.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="csenna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csenna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="amumu_completo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\amumu_completo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cshen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cshen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Akali png - copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\iconos\Akali png - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="csion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csion.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="miss_fortune" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\miss_fortune.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="csona" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csona.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="asheee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\asheee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="csoraka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\csoraka.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ekko" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes_campeones_completos\ekko.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cteemo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cteemo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Akali png1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\iconos\Akali png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cthresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cthresh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ctryndamere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ctryndamere.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ctwisted_fate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ctwisted_fate.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cvarus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cvarus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cwarwick" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cwarwick.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cyasuo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cyasuo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\czac.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="czed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\czed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="default_emblem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\default_emblem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demacia_crest_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\demacia_crest_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="demacia_crest_icon___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\demacia_crest_icon - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freljord_crest_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\freljord_crest_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="freljord_crest_icon___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\freljord_crest_icon - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_faction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\icon-faction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iona_crest_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\iona_crest_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\LOL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noxus_crest_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\noxus_crest_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noxus_crest_icon___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\noxus_crest_icon - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="role_icon_fighter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\role_icon_fighter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_isles_crest_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\shadow_isles_crest_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shadow_isles_crest_icon___copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\iconos\shadow_isles_crest_icon - copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

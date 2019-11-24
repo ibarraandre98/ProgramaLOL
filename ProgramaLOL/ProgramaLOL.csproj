@@ -116,5 +116,227 @@
   <ItemGroup>
     <None Include="iconos\Akali png - copia.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aatrox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akail_completa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Akali png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amumu_completo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ashe_completa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cakali.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camumu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cblitzcrank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cbraum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdarius.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cdraven.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cekko.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cgaren.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cgraves.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cirelia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cjarvan_iv.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cjax.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cjayce.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ckaisa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ckalista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ckayn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clucian.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clux.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cmiss_fortune.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cmordekaiser.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cnami.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cnautilus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cneeko.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cnidalee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cnunu_willump.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colaf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cpoppy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\criven.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csona.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csoraka.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cthresh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ctryndamere.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ctwisted_fate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\czac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\bandle_city_crest_icon - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\bandle_city_crest_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\ChampionIconFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_champion__3nwJQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_faction__14mjH - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_faction__14mjH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_latest__1ulWu - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_latest__1ulWu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_trending__2Bld0 - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\content_type_icon_trending__2Bld0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\default_emblem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\demacia_crest_icon - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\demacia_crest_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\freljord_crest_icon - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\freljord_crest_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\icon-faction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\iona_crest_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\LOL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\noxus_crest_icon - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\noxus_crest_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\role_icon_fighter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\shadow_isles_crest_icon - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="iconos\shadow_isles_crest_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ckatarina.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cnunu_y_willum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csenna.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cshen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cteemo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cwarwick.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cvarus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cyasuo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\czed.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
